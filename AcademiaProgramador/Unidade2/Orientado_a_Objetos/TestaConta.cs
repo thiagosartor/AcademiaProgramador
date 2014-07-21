@@ -12,9 +12,13 @@ namespace Unidade2.Orientado_a_Objetos
 
             // Carregando dados
             Conta c1 = new Conta();
+            
+            
+            
             c1.numero = 1234;
             c1.saldo = 1000;
             c1.limite = 500;
+
 
             //Ligando os objetos
             c1.agencia = a;

@@ -2,9 +2,9 @@
 
 namespace Unidade2.Relacoes
 {
-    internal class TestaCartaoECliente
+    class TestaCartaoECliente
     {
-        private static void Main()
+        private static void Main_()
         {
             //Criando objetos
             CartaoECliente cdc1 = new CartaoECliente();

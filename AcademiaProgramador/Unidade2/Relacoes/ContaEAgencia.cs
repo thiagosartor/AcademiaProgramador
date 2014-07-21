@@ -2,7 +2,7 @@
 
 namespace Unidade2.Relacoes
 {
-    internal class ContaEAgencia
+    class ContaEAgencia
     {
         public int numero;
         public double saldo;

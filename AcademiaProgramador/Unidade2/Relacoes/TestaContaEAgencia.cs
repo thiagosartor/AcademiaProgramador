@@ -5,7 +5,7 @@ namespace Unidade2.Relacoes
 {
     class TestaContaEAgencia
     {
-        private static void Main_()
+        private static void Main()
         {
             //Criando objetos
             Agencia a = new Agencia();

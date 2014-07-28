@@ -2,7 +2,7 @@
 {
     internal class TestaValoresPadrao
     {
-        private static void Main_()
+        private static void Main()
         {
             // Conta c = new Conta();
 
@@ -18,6 +18,7 @@
             cdc.cliente = c;
 
             // Acessando o nome do cliente
+
             cdc.cliente.nome = "Thiago Sartor";
         }
     }

@@ -6,18 +6,20 @@ using System.Threading.Tasks;
 
 namespace Unidade2.Orientado_a_Objetos
 {
-    class Agencia
+    class Pessoa
     {
-        public int numero;
+        public string rg;
+        public int cpf;
 
-        public Agencia(int numero)
+        public Pessoa(string rg)
         {
-            this.numero = numero;
+            this.rg = rg;
         }
 
-        public Agencia()
+        public Pessoa(int cpf)
         {
-            // TODO: Complete member initialization
+            this.cpf = cpf;
         }
+
     }
 }

@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C593EC60-B1D8-4AFB-B30D-4C889EE52338}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{FF525ADD-CD5D-4B2D-A812-1755CE0E24B7}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unidade2</RootNamespace>
-    <AssemblyName>Unidade2</AssemblyName>
+    <RootNamespace>Materiais</RootNamespace>
+    <AssemblyName>Materiais</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,29 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercicios_Fixacao\Exercicio19.cs" />
-    <Compile Include="Exercicios_Fixacao\Exercicio18.cs" />
-    <Compile Include="Orientado_a_Objetos\Agencia.cs" />
-    <Compile Include="Orientado_a_Objetos\CartaoDeCredito.cs" />
-    <Compile Include="Orientado_a_Objetos\Cliente.cs" />
-    <Compile Include="Orientado_a_Objetos\Conta.cs" />
-    <Compile Include="Orientado_a_Objetos\Pessoa.cs" />
-    <Compile Include="Orientado_a_Objetos\TestaAgencia.cs" />
-    <Compile Include="Orientado_a_Objetos\TestaCartaoDeCredito.cs" />
-    <Compile Include="Orientado_a_Objetos\TestaCliente.cs" />
-    <Compile Include="Orientado_a_Objetos\TestaConta.cs" />
-    <Compile Include="Orientado_a_Objetos\TestaValoresPadrao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Relacoes\CartaoECliente.cs" />
-    <Compile Include="Relacoes\ContaEAgencia.cs" />
-    <Compile Include="Relacoes\TestaCartaoECliente.cs" />
-    <Compile Include="Relacoes\TestaContaEAgencia.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Exercicios_Complementares\" />
+    <None Include="Apostilas\Introdução - Treinamento.pdf" />
+    <None Include="Apostilas\Unidade 1 - Lógica de Programação.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

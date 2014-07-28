@@ -2,31 +2,32 @@
 
 namespace Unidade2.Orientado_a_Objetos
 {
-    class TestaConta
+    internal class TestaConta
     {
         private static void Main_()
         {
-            //Criando objetos
-            Agencia a = new Agencia();
-            a.numero = 2314324;
+            Conta c = new Conta();
 
-            // Carregando dados
-            Conta c1 = new Conta();
-            
-            
-            
-            c1.numero = 1234;
-            c1.saldo = 1000;
-            c1.limite = 500;
+            c.Deposita(1000);
+            c.ImprimeExtrato();
 
+            c.Saca(100);
+            c.ImprimeExtrato();
 
-            //Ligando os objetos
-            c1.agencia = a;
+            Conta origem = new Conta();
+            origem.saldo = 1000;
 
-            Console.WriteLine(c1.numero);
-            Console.WriteLine(c1.saldo);
-            Console.WriteLine(c1.limite);
-            Console.WriteLine(c1.agencia.numero);
+            Conta destino = new Conta();
+
+            origem.Transfere(destino, 500);
+
+            Console.WriteLine(origem.saldo);
+            Console.WriteLine(destino.saldo);
+
+            double saldoDisponivel = c.ConsultaSaldoDisponivel();
+            Console.WriteLine(" SALDO DISPONÍVEL : " + saldoDisponivel);
         }
     }
 }
+
+

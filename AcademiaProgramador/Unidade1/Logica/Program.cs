@@ -1,19 +1,22 @@
-﻿namespace Unidade1.Logica
+﻿using System;
+
+namespace Unidade1.Logica
 {
     public class TestaConta
     {
         private static void Main()
         {
-            Conta referecia = new Conta();
+            int numero1 = 14;
+            int numero2 = 4;
+            string nome = "Thiago";
 
-            // imprime 500
-            System.Console.WriteLine();
+            double soma = 0;
+
+            soma = numero1 + numero2;
+
+            
+            Console.WriteLine(soma);
+
         }
-    }
-
-    public class Conta
-    {
-        public string nome ="ss";
-        public int codigo;
     }
 }

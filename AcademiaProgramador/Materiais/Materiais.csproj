@@ -44,6 +44,7 @@
   <ItemGroup>
     <None Include="Apostilas\Introdução - Treinamento.pdf" />
     <None Include="Apostilas\Unidade 1 - Lógica de Programação.pdf" />
+    <None Include="Apostilas\Unidade 2 - Orientação a Objetos.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
